@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>IMAGES</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .navbar{
+           /* position: relative; */
+            overflow: hidden;
+            background-color: #ece9f2;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+            height: 10vh;
+            padding: 0;
+            margin: 0;
+        }
+        .logo{
+            color: black;
+            margin: 20px;
+        }
+        .masterimg{
+            display: flex;  
+
+        }
+        .hotelimg{
+            height: 50vh;
+            width: 33.33%;
+            margin: 10px;
+        }
+        .himg{
+            height: 50vh;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .servicepro{
+            display: flex;
+        }
+       .roompro{
+        display: flex;
+       }
+       .container{
+        margin-top: 50px;
+        
+       }
+      
+       @media screen and (max-width: 850px) and (min-width: 650px) {
+
+       .container{
+        margin-top: 50px;
+        width: 100%;
+               
+       }
+       .himg{
+        height: 50vh;         
+       }      
+       }  
+
+
+       
+
+
+     @media screen and (max-width: 650px) {
+        .masterimg{
+            flex-direction: column;
+        }
+        .servicepro{
+            flex-direction: column;
+            
+        }
+        .roompro{
+            flex-direction: column;
+        }
+        .hotelimg{
+            width: 100%;
+        }
+        
+     }
+
+
+     @media screen and (max-width: 550px) {
+        .social{
+            height: 5em;
+        }
+       .list-inline-item{
+        font-size: smaller;
+        padding: 0;
+       }
+    .list-inline{
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        font-size:small;
+        margin-top: 0;
+    }
+    .masterimg{
+        margin-top: 40px;
+    }
+    .navbar{
+        height: 60px;
+    }
+    .container{
+        margin-left: 0;
+    }
+    .masterimg{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+            <!-- navbar -->
+
+            <nav class="navbar">
+                <h1 class="logo">HERITAGE HOTEL</h1>
+                <ul class="nav-links">
+                    <li class="active"><a href="/index.html">HOME</a></li>
+                    <li><a href="rooms.html">ABOUT</a></li>
+                    <li><a href="allimg.html">IMAGES</a></li>                   
+                    <li class="btn"><a  href="form.html">CONTACTS</a></li>
+                </ul>
+                
+            </nav>
+
+            <!-- images         -->
+ <div class="container">
+    <div class="masterimg">
+        <div class="hotelimg">
+
+            <img src="hotelimg/h12.jpg" class="himg">
+            
+        </div>
+        <div class="hotelimg">
+            
+            <img src="hotelimg/h55.jpeg" class="himg">
+            
+        </div>
+        <div class="hotelimg">
+            
+            <img src="hotelimg/h5.jpg" class="himg">
+            
+        </div>
+        
+    </div>
+
+
+    <div class="servicepro">
+        <div class="hotelimg">
+
+            <img src="commodityinc/gym2.jpeg" class="himg">
+            
+        </div>
+        <div class="hotelimg">
+            
+            <img src="commodityinc/swim2.webp" class="himg">
+            
+        </div>
+        <div class="hotelimg">
+            
+            <img src="commodityinc/spa2.jpg" class="himg">
+            
+        </div>
+        
+    </div>
+
+
+    <div class="roompro">
+        <div class="hotelimg">
+
+            <img src="roomsimg/B1.jpg" class="himg">
+            
+        </div>
+        <div class="hotelimg">
+            
+            <img src="roomsimg/B3.jpg" class="himg">
+            
+        </div>
+        <div class="hotelimg">
+            
+            <img src="roomsimg/B4.webp" class="himg">
+            
+        </div>
+        
+    </div>
+</div>
+
+            <!-- footer -->
+
+
+            <div class="footer-basic">
+                <footer>
+                    <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item"><a href="#">Services</a></li>
+                        <li class="list-inline-item"><a href="#">About</a></li>
+                        <li class="list-inline-item"><a href="#">Terms</a></li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <p class="copyright"></p>
+                </footer>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    /* background-image: linear-gradient(to right, blue,indigo,violet); */
+    background-image: url("new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg");
+    background-image: blur;
+}
+
+
+#regform{
+    /* background-color:white; */
+    width: 25%;
+    height: 70vh;
+    margin: 120px auto;
+    color: whitesmoke;
+    font-size: x-large;
+    margin-top: 120px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(10, 16, 16);
+    border-radius: 20px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+.pbtn{
+    text-align: center;
+}
+#btn{
+    color: antiquewhite;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    width: 7vw;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: auto ;
+    
+}
+.pc{
+    align-content: end;
+    font-size: 2vmin;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4vmin;
+    font-family: 'Times New Roman', Times, serif;
+}
+.loginpage{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.loginlogo{
+    color: whitesmoke;
+    font-size: medium;
+    margin: 20px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    padding: 10px;
+    border-radius: 15px;
+}
+.formcon{
+    background: transparent;
+    
+}

@@ -1,0 +1,249 @@
+body{
+    background-color: rgb(226, 27, 27);
+}
+#vid-par{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+#my-vid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+#vid-content{
+    text-align: center;
+}
+ 
+header{
+    /* background-image: url('/img1.jpeg'); */
+    width: 100vw;
+    height: 70vh;            
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-container{
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.886);
+    text-align: center;
+    align-items: center;
+
+}
+.header-container h2{
+    font-size: 4vmin;
+}
+
+.btn{
+    padding: 8px 15px;
+    background: #bbe123;
+    border-radius: 30px;
+    color: rgb(228, 24, 113);
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+     
+}
+.nav-links li{
+    margin: 0 20px;  
+
+}
+a{
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    overflow-x: hidden;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+/* section{
+    width: 80%;
+    margin: 80%;
+
+} */
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.main-title{
+    
+        text-align: center;
+        align-items: center;
+        font-size: 4vmin;
+        margin: 20px;
+        text-transform: uppercase;
+        color: #6662b2;
+        
+        
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+              
+        
+   
+}
+.titleserv{
+    align-items: center;
+    text-align: center;
+   width: 30vw;
+   margin: 20px auto;
+    border-radius: 20px;
+    background-color: #bbe123;
+}
+.room-section{
+    display: flex;
+    
+
+}
+.room-link{
+    margin: 30px;
+    
+    height: 50vh;
+    width: 50vw;
+
+}
+.room-para{
+    background-color: #d11cb0;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 2vmin;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.carousel-inner{
+    height: 50vh;
+    width: 50vw;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.learn-more{
+    background-color: #a628d4;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: small;
+    margin: 20px;
+   
+}
+.learning{
+    
+}
+.features{
+    display: flex;
+}
+.feature-para{
+    background: #fc036b;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 2vmin;
+    margin: 20px;
+    
+
+}
+
+    /* footer */
+    .footer-basic {
+padding:40px 0;
+background-color:#ffffff;
+color:#4b4c4d;
+}
+
+.footer-basic ul {
+padding:0;
+list-style:none;
+text-align:center;
+font-size:18px;
+line-height:1.6;
+margin-bottom:0;
+}
+
+.footer-basic li {
+padding:0 10px;
+}
+
+.footer-basic ul a {
+color:inherit;
+text-decoration:none;
+opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+opacity:1;
+}
+
+.footer-basic .social {
+text-align:center;
+padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+font-size:24px;
+width:40px;
+height:40px;
+line-height:40px;
+display:inline-block;
+text-align:center;
+border-radius:50%;
+border:1px solid #ccc;
+margin:0 8px;
+color:inherit;
+opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+opacity:0.9;
+}
+
+.footer-basic .copyright {
+margin-top:15px;
+text-align:center;
+font-size:13px;
+color:#aaa;
+margin-bottom:0;
+}
